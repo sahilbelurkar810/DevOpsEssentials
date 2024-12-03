@@ -37,23 +37,25 @@ print(f"\nBefore swapping var1:{var1} and var2:{var2}")
 temp = var1
 var1 = var2
 var2 = temp
-print(f"\nAfter swapping var1:{var1} and var2:{var2}")
+print(f"\nAfter swapping var1: {var1} and var2: {var2}")
 print("\nRESWAPPING")
 var1,var2=var2,var1
-print(f"\nAfter swapping var1:{var1} and var2:{var2}")
+print(f"\nAfter swapping var1: {var1} and var2: {var2}")
 print("\nRESWAPPING")
 
 var1 += var2
 var2 = var1 - var2
 var1 = var1 - var2
-print(f"\nAfter swapping var1:{var1} and var2:{var2}")
+print(f"\nAfter swapping var1: {var1} and var2: {var2}")
 
 
 print("using xor")
 var1 = var1 ^ var2
 var2 = var1 ^ var2
 var1 = var1 ^ var2
-print(f"\nAfter swapping var1:{var1} and var2:{var2}")
+print(f"\nAfter swapping var1: {var1} and var2: {var2}")
 
 # for i in range(1,11):
 #     print(f"{num1} * {i} = {num1*i}")
+
+
