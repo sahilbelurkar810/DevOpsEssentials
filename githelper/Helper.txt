@@ -1,0 +1,3 @@
+Becouse you have multi account setup you have to do this
+git remote set-url origin git@github.com-<from ~/.ssh/config>:<username>/<repository name>.git
+
