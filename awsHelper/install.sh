@@ -36,3 +36,6 @@ rm -rf awscliv2.zip aws
 
 echo "AWS CLI installation completed successfully!"
 
+
+echo "Running configure"
+aws configure
